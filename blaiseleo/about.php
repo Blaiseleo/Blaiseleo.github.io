@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		
+		<title> About </title>
+
+		<link rel="icon" type="image/png" href="img/Water_52px.png" />
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />	
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+	</head>
+
+	<body >
+		<!--[if lt IE 7]>
+		<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+		<![endif]-->
+
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-default navbar-fixed-top animated fadeInDown" style="background: white; border-top: 1px solid #ccc;">
+			<a class="navbar-brand" href="#" style="font-size: 0.9em;"> <img src="img/Water_52px.png"> GO <font color="#019e18">GREEN</font></a>
+			<div class="navbar-container">
+				<div id="navbar-content" class="text-center animated fadeInUp">
+					<a onclick="document.getElementById('navbar-content').style.display='none'" class="navbar-close"><i class="fa fa-times"></i></a>
+					<ul style="margin-top: 15em;">
+						<li><a href="index.php" class="btn btn-block animated fadeIn">HOME</a></li>
+						<li><a href="about.php" class="btn btn-block animated fadeIn">ABOUT ME</a></li>
+						<li><a href="archieve.php" class="btn btn-block animated fadeIn">ARCHIEVE</a></li>
+						<li><a href="contact.php" class="btn btn-block animated fadeIn">CONTACT US</a></li>
+					</ul>
+				</div>
+
+				<a onclick="document.getElementById('navbar-content').style.display='block'" class="pull-right"><i class="fa fa-navicon" style="cursor: pointer; font-size: 1.8em; margin: 0.5em 2em 0 0; color: black;"></i></a>
+			</div>
+		</nav>
+		<!-- END NAVBAR -->
+
+		<!-- HEADER JUMBOTRON -->
+		<div class="jumbotron text-center" style="background: #f4f4f4;" id="home">
+			<div class="container header-jumbotron">
+				<h1 class="animated pulse">ABOUT US</h1>
+			</div>
+		</div>
+		<!-- END HEADER JUMBOTRON -->
+
+		<!-- ABOUT CONTENT -->
+		<div class="container">
+			<div class="row">
+				<div class="about-content col-md-4 wow fadeInUp">
+					<img class="img-circle" src="img/avatar.jpg" style="width: 70px; height: 70px">
+					<h4><b>75 Years Experience</b></h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="about-content col-md-4 wow fadeInUp">
+					<img class="img-circle" src="img/avatar.jpg" style="width: 70px; height: 70px">
+					<h4><b>Client Care & Attention</b></h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="about-content col-md-4 wow fadeInUp">
+					<img class="img-circle" src="img/avatar.jpg" style="width: 70px; height: 70px">
+					<h4><b>You Talk We Listen</b></h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="about-banner text-center" style="background: url('img/11.jpg') no-repeat center; background-size: 100%;">
+			<h1 class="wow pulse">Strong Company Values</h1>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="about-content2">
+					<div class="col-md-6 wow fadeInLeft">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+						<p>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+						<p>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="col-md-6 wow fadeInRight">
+						<center><img src="img/7(1).png" height="350px" width="400px" style="margin-top: -1em;"></center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END ABOUT CONTENT -->
+
+		<!-- FOOTER -->
+		<footer class="footer text-center">
+			<div class="container">
+				<div class="footer-content">
+					<a class="footer-brand" href="#" style="font-size: 1.3em;"> <img src="img/Water_52px.png"> GO <font color="#019e18">GREEN</font></a>
+					<p>We are ready to take your next business ventures to great heights.<br>
+					Go on, pick up the phone. Let's talk big bussiness baby!</p>
+					<span>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+					</span>
+				</div>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+		
+		<a href="#" class="cd-top scroll-up">Top</a>
+	
+		<script src="js/jquery.min.js" ></script>
+		<script src="js/bootstrap.min.js" ></script>
+		<script src="js/script.js"></script>
+		<script src="js/wow.js"></script>
+
+		<script>
+		//for bootstrap animate
+		wow = new WOW(
+		  {
+		    animateClass: 'animated',
+		    offset:       100
+		  }
+		);
+		wow.init();
+		</script>
+
+	</body>
+</html>
